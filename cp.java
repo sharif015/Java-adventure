@@ -9,11 +9,10 @@ public class cp {
 		
 		int l =s.length() ;
 		int ans=0 ;
-		int k = 25%26 ;
+		
 		int t=s.charAt(0)-'a' ;
 		int d =26-t ;
 		ans+=check(t,d) ;
-		//print(Math.abs((s.charAt(1)-'a')-25)) ;
 		for(int i=1 ;i<l ;i++)
 		{
 			int m = s.charAt(i-1)-'a';
